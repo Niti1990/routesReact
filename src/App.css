@@ -1,0 +1,40 @@
+.App {
+	text-align: center;
+}
+
+.home {
+	text-align: center;
+	background-color: aquamarine;
+}
+.about {
+	text-align: center;
+	background-color: aquamarine;
+}
+.contact {
+	text-align: center;
+	background-color: aquamarine;
+}
+ul {
+	margin-top: 20px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	margin-left: 120px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
